@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { getContent, saveContent } from "@/lib/data";
 import { isAuthenticated } from "@/lib/auth";
 
@@ -10,14 +11,23 @@ export async function GET() {
 }
 
 export async function PUT(req: Request) {
-  if (!(await isAuthenticated())) {
+  if (!isAuthenticated()) {
     return NextResponse.json({ ok: false, error: "Yetkisiz." }, { status: 401 });
   }
   try {
     const body = await req.json();
     await saveContent(body);
+
+    revalidatePath("/", "layout");
+    revalidatePath("/");
+    revalidatePath("/about");
+    revalidatePath("/collections");
+    revalidatePath("/trade");
+    revalidatePath("/contact");
+
     return NextResponse.json({ ok: true });
   } catch (e) {
-    return NextResponse.json({ ok: false, error: "Kaydedilemedi." }, { status: 400 });
+    const msg = e instanceof Error ? e.message : "Kaydedilemedi.";
+    return NextResponse.json({ ok: false, error: msg }, { status: 400 });
   }
 }
