@@ -1,0 +1,209 @@
+{
+  "site": {
+    "brandName": "Elois Atelier",
+    "tagline": "Form, malzeme ve işbirliğinin bir araya geldiği yer.",
+    "footerNote": "Elois Atelier — 2018'den bu yana ortak çalışmalar.",
+    "instagram": "https://instagram.com",
+    "pinterest": "https://pinterest.com",
+    "email": "merhaba@stüdyo.com",
+    "nav": {
+      "collections": "Koleksiyonlar",
+      "studio": "Stüdyo",
+      "trade": "Ticari",
+      "contact": "İletişim"
+    }
+  },
+  "home": {
+    "heroEyebrow": "Yeni — Bahar Koleksiyonu",
+    "heroTitle": "Birlikte tasarlanmış,\nelle yapılmış aydınlatma.",
+    "heroSubtitle": "Cam üfleyenler, seramikçiler ve metal ustalarıyla yan yana çalışıyoruz. Her parça, çoklu görünmez ellerin izini taşır.",
+    "heroImage": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=1600&q=80",
+    "heroCta": "Koleksiyonu Keşfet",
+    "heroCtaLink": "/collections",
+    "marquee": ["Cam", "Seramik", "Metal", "Ahşap", "İşbirliği", "Zanaat", "Sistem"],
+    "stats": [
+      { "number": "08", "label": "yıllık deneyim" },
+      { "number": "150+", "label": "özgün parça" },
+      { "number": "30", "label": "zanaatkar ortak" },
+      { "number": "06", "label": "ana koleksiyon" }
+    ],
+    "introHeading": "2018'den bu yana,\nkatalogumuz altı koleksiyon ve\n150'yi aşkın ürünle büyüdü.",
+    "introBody": "Hem konut hem ticari projelere uygun, ölçülebilir üretim ile sipariş üzerine işçiliği birleştiren bir yaklaşımla tasarlıyoruz.",
+    "featuredEyebrow": "Öne Çıkan",
+    "featuredHeading": "Sezonun seçkileri",
+    "featured": [
+      {
+        "title": "Verso Yüzey Aydınlatma",
+        "description": "Esneklik için tasarlanmış yapısal lineer bir aydınlatma armatürü. Eğimli cam paneller ve görünür metal detaylar.",
+        "image": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=1200&q=80",
+        "link": "/collections",
+        "tag": "Yeni"
+      },
+      {
+        "title": "Slab Masa Lambası",
+        "description": "Kil levhaların elle pres kalıplara serilmesiyle yapılan abajur, makinede işlenmiş metal bir tabanla buluşur.",
+        "image": "https://images.unsplash.com/photo-1565891741441-64926e441838?w=1200&q=80",
+        "link": "/collections",
+        "tag": "Sınırlı"
+      },
+      {
+        "title": "Flora Avize",
+        "description": "Klasik Venedik cam tekniklerini kullanan, doğanın güzelliğini onurlandıran bir koleksiyon.",
+        "image": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=1200&q=80",
+        "link": "/collections",
+        "tag": ""
+      }
+    ],
+    "processEyebrow": "Süreç",
+    "processHeading": "Bir tasarım nasıl doğar",
+    "processBody": "Her parça, atölyede başlayan ve aylar süren bir konuşmanın sonucudur. İşte üç adımda yaklaşımımız.",
+    "process": [
+      {
+        "title": "Malzemeyi dinle",
+        "body": "Her proje, malzemenin doğal davranışını anlamakla başlar. Cam akıcıdır, kil esnektir, metal sabit. Bu özellikleri zorlamak yerine onlardan öğreniriz."
+      },
+      {
+        "title": "Atölyede prototiple",
+        "body": "Brooklyn'deki atölyemizde her form fiziksel olarak prova edilir. Dijital tasarımdan çok elin sezgisine güveniriz."
+      },
+      {
+        "title": "Birlikte üret",
+        "body": "Cam üfleyen, seramikçi, metal ustası — her biri parçaya kendi imzasını bırakır. Bitmiş eser, görünmez ellerin toplamıdır."
+      }
+    ],
+    "wideImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1800&q=80",
+    "wideImageCaption": "Atölyemizden — el üfleme cam, üretim aşamasında.",
+    "lookbookEyebrow": "Lookbook",
+    "lookbookHeading": "Mekanlar",
+    "lookbookBody": "Eserlerimizin yaşadığı mekanlardan kareler. Her biri, parçanın ev sahipleriyle kurduğu ilişkiyi anlatıyor.",
+    "lookbook": [
+      { "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1200&q=80", "caption": "New York — Özel konut", "size": "large" },
+      { "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=900&q=80", "caption": "Brooklyn", "size": "small" },
+      { "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=80", "caption": "Milano showroom", "size": "small" },
+      { "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80", "caption": "Otel projesi — Lobi", "size": "large" },
+      { "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80", "caption": "Yemek odası", "size": "small" },
+      { "image": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?w=900&q=80", "caption": "Galeri yerleştirmesi", "size": "small" }
+    ],
+    "testimonialsHeading": "Söylenenler",
+    "testimonials": [
+      {
+        "quote": "Bir mekanı bir parçayla dönüştürmek nadir bir armağan. Onların eserleri her zaman bunu başarıyor — sessiz ama unutulmaz.",
+        "author": "Maya R.",
+        "role": "İç Mimar, NY"
+      },
+      {
+        "quote": "Sadece bir aydınlatma değil; eve gelen bir misafir gibi. Karakteri ve hikayesi var.",
+        "author": "Daniel K.",
+        "role": "Müşteri"
+      },
+      {
+        "quote": "Ekiple çalışmak gerçek bir ortaklık — tasarım sürecinin her adımında düşünceli, dürüst ve cömert.",
+        "author": "Elena T.",
+        "role": "Mimar"
+      }
+    ],
+    "journalHeading": "Stüdyodan Notlar",
+    "journal": [
+      {
+        "date": "Mart 2026",
+        "title": "Quarters: Topluluk ve zanaatkarlığa bir methiye",
+        "excerpt": "Tribeca'daki yeni mekanımız bir showroom'dan çok daha fazlası — bir buluşma noktası.",
+        "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=80"
+      },
+      {
+        "date": "Şubat 2026",
+        "title": "Terra Koleksiyonu'nun arkasındaki süreç",
+        "excerpt": "Seramikçi ile geçen bir yıl ve organik formların ortaya çıkışı.",
+        "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=900&q=80"
+      },
+      {
+        "date": "Ocak 2026",
+        "title": "Malzemeyle başlayan tasarım",
+        "excerpt": "Camın, kilin, metalin doğal eğilimlerini dinleyerek tasarlamak üzerine.",
+        "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80"
+      }
+    ],
+    "ctaEyebrow": "Birlikte Çalışalım",
+    "ctaHeading": "Bir proje mi düşünüyorsunuz?",
+    "ctaBody": "Özel siparişler, ticari projeler ve uluslararası gönderim için ekibimizle iletişime geçin. İlk konuşmamız her zaman ücretsiz.",
+    "ctaButtonText": "Konuşmaya başla",
+    "ctaButtonLink": "/contact",
+    "ctaImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1600&q=80"
+  },
+  "about": {
+    "title": "Stüdyo Hakkında",
+    "lead": "Sanatçılar, malzemeler, mekanlar ve daha geniş topluluğumuz arasındaki işbirliği üzerine kurulu bir tasarım stüdyosu.",
+    "image": "https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?w=1600&q=80",
+    "imageCaption": "Brooklyn'deki atölyemizden bir kare.",
+    "sections": [
+      {
+        "heading": "Birlikte daha iyi",
+        "body": "Kurucularımız, sorumlulukları güçlerine göre paylaşan ama yaratıcı süreçte eşit rol oynayan iki uzun zamanlı arkadaş. Stüdyo da bu \"birlikte daha iyi\" felsefesi altında çalışıyor — disiplinli zanaatkarlığı ölçeklenebilir üretimle buluşturan iyi tasarlanmış nesneler yaratmak için."
+      },
+      {
+        "heading": "Malzemeyi dinleyen tasarım",
+        "body": "Her malzemenin doğal eğilimlerini benimsemek, içsel özelliklerinin alacağı formları etkilemesine izin vermek istiyoruz. Sonra incelterek devam ediyoruz: en küçük, en sade ve en şaşırtıcı detaylara kadar — dekoratif bir süs gibi gizlenmiş dimerler, bir düğmeyle değişen renkler."
+      },
+      {
+        "heading": "Birlikte çalıştığımız ortaklar",
+        "body": "Dünyanın dört bir yanından gelişen bir uzman zanaatkarlar, sanatçılar ve mühendisler çevresiyle çalışıyoruz. Her ilişki gerçek bir ortaklık — her kişi parçaları en etkili sonucuna doğru itiyor."
+      }
+    ]
+  },
+  "collections": {
+    "title": "Koleksiyonlar",
+    "lead": "Birbirine bağlı ama bağımsız duran altı koleksiyon, sekiz seri.",
+    "items": [
+      {
+        "name": "Core",
+        "description": "Tasarım felsefemizin en saf hali. Değiştirilebilir bileşenler ve karıştırıp eşleştirme imkanı ile her seri kendi ifadesini kurar.",
+        "image": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?w=1200&q=80"
+      },
+      {
+        "name": "Terra",
+        "description": "Organik, heykelsi formlar ile sistem odaklı sadeliğin buluşması.",
+        "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=1200&q=80"
+      },
+      {
+        "name": "Flora",
+        "description": "Klasik Venedik cam tekniklerini kullanarak doğanın güzelliğini onurlandıran bir koleksiyon.",
+        "image": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=1200&q=80"
+      },
+      {
+        "name": "Verso",
+        "description": "Eğimli cam paneller ve görünür metal detaylarla esnek bir lineer aydınlatma sistemi.",
+        "image": "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=1200&q=80"
+      },
+      {
+        "name": "Slab",
+        "description": "Kil levhaların elle şekillendirilmesiyle yapılan, hiçbiri diğerinin aynı olmayan masa lambaları.",
+        "image": "https://images.unsplash.com/photo-1565891741441-64926e441838?w=1200&q=80"
+      },
+      {
+        "name": "Helio",
+        "description": "Metal ve cam — günün ışığını taklit eden bir armatür ailesi.",
+        "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=1200&q=80"
+      }
+    ]
+  },
+  "trade": {
+    "title": "Ticari Program",
+    "lead": "Tasarım profesyonelleriyle birlikte çalışmak için kurulmuş özel bir program.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80",
+    "benefits": [
+      "Özel ticari fiyatlandırma ve siparişlerde indirim",
+      "Ürün seçimi ve özelleştirme konusunda kişisel danışmanlık",
+      "Önceliklendirilmiş üretim takvimi ve sevkiyat",
+      "Web sitesi üzerinden doğrudan sipariş gönderme imkanı"
+    ],
+    "footer": "Başvurmak için aşağıdaki formu doldurun. Daha fazla bilgi için bize bir e-posta gönderin."
+  },
+  "contact": {
+    "title": "İletişim",
+    "lead": "Bize yazın. İşbirlikleri, özel projeler ve sorularınız için her zaman buradayız.",
+    "address": "Brooklyn, NY — Atölye ziyaretleri yalnızca randevu ile.",
+    "phone": "+1 (000) 000 00 00",
+    "email": "merhaba@stüdyo.com",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
+  }
+}
