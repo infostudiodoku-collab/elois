@@ -1,4 +1,5 @@
 import { supabase } from "./supabase";
+import { unstable_noStore as noStore } from "next/cache";
 import seedData from "../../data/content.json";
 
 export type SiteContent = {
@@ -82,11 +83,8 @@ export type SiteContent = {
 
 const SEED: SiteContent = seedData as unknown as SiteContent;
 
-/**
- * Reads site content from Supabase. If no row exists yet (first time), seeds
- * the table from the bundled `data/content.json` file.
- */
 export async function getContent(): Promise<SiteContent> {
+  noStore();
   const sb = supabase();
   const { data, error } = await sb
     .from("site_content")
@@ -99,12 +97,10 @@ export async function getContent(): Promise<SiteContent> {
   }
 
   if (!data) {
-    // First time — seed the table with the bundled defaults
     const { error: insertError } = await sb
       .from("site_content")
       .insert({ id: 1, data: SEED });
     if (insertError) {
-      // If concurrent seed happened, just refetch
       if (!insertError.message.includes("duplicate")) {
         throw new Error("İçerik tablosuna kaydedilemedi: " + insertError.message);
       }
